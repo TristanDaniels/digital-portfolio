@@ -1,14 +1,12 @@
 <template>
-  <About />
+  <Resume />
 </template>
-
 <script>
-import About from "../components/About.vue";
+import Resume from "../components/Resume.vue";
 export default {
   components: {
-    About,
+    Resume,
   },
 };
 </script>
-
 <style scoped></style>

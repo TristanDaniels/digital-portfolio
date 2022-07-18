@@ -1,14 +1,13 @@
 <template>
-  <About />
+  <Projects />
 </template>
-
 <script>
-import About from "../components/About.vue";
+import Projects from "../components/Projects.vue";
 export default {
+  name: "Projects",
   components: {
-    About,
+    Projects,
   },
 };
 </script>
-
 <style scoped></style>
