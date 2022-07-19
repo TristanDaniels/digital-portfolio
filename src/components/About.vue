@@ -92,8 +92,8 @@
                 </div>
                 <p class="lead">
                   I'm 18 years old and fresh out of high school with still very
-                  much to learn. I am extremely excited and anxious of the near
-                  future but I'm always up for a challenge.
+                  much to learn. I am excited and anxious of the near future but
+                  I'm always up for a challenge.
                 </p>
                 <p class="lead">
                   I like to play sports such as football, tennis and cricket. I

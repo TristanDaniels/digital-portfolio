@@ -51,7 +51,9 @@
           />
           <h5 class="text-white">Joshua</h5>
           <p class="text-white">
-            Some representative placeholder content for the second slide.
+            "Tristan is a self-motivated, dedicated and authentic individual. I
+            consider him to be a great asset to any workplace due to his
+            outspoken personality and charisma."
           </p>
         </div>
         <div class="carousel-item pb-5 text-center">
