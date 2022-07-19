@@ -24,7 +24,7 @@
         <img
           data-bs-toggle="modal"
           data-bs-target="#project3"
-          src="https://i.postimg.cc/qRyS4ybB/Property.jpg"
+          src="https://i.postimg.cc/6q3vXLcF/Property.jpg"
           alt="Project 3"
           class="project"
         />
