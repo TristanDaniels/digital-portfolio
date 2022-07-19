@@ -100,7 +100,7 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 80vh;
+  height: 100vh;
 }
 .car-img {
   height: 200px;

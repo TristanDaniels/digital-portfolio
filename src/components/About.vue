@@ -10,7 +10,7 @@
                   <div class="about-img">
                     <img
                       src="https://i.postimg.cc/QCZYCHKX/Tristan.jpg"
-                      class="about-img img-fluid rounded b-shadow-a mt-5"
+                      class="about-img img-fluid rounded b-shadow-a mt-3"
                       style="height: 250px; width: 200px"
                       alt="Picture of me"
                     />
@@ -86,7 +86,7 @@
               </div>
             </div>
             <div class="col-md-6">
-              <div class="about-me pt-4 pt-md-0 mt-5">
+              <div class="about-me pt-4 pt-md-0 mt-3">
                 <div class="title-box-2">
                   <h2 class="title-left mb-4">About me</h2>
                 </div>

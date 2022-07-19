@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mb-3">
     <div class="headings mt-3 mb-3 d-flex justify-content-center">
       <h2>Resume</h2>
     </div>
