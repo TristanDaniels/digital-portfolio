@@ -1,5 +1,5 @@
 <template>
-  <div data-aos="fade-up" data-aos-duration="500" class="container">
+  <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="box-shadow-full">
@@ -88,7 +88,7 @@
             <div class="col-md-6">
               <div class="about-me pt-4 pt-md-0 mt-5">
                 <div class="title-box-2">
-                  <h2 class="title-left fw-bold mb-4">About me</h2>
+                  <h2 class="title-left mb-4">About me</h2>
                 </div>
                 <p class="lead">
                   I'm 18 years old and fresh out of high school with still very

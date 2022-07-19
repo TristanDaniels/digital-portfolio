@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="headings mt-5 mb-3 d-flex justify-content-center">
+    <div class="headings mt-3 mb-3 d-flex justify-content-center">
       <h2>Resume</h2>
     </div>
     <div class="row">

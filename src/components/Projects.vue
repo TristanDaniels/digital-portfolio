@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" data-aos="fade-up" data-aos-offset="500">
+  <section id="projects" class="mt-3">
     <h2>Projects</h2>
     <div class="project-container">
       <div class="template">
@@ -176,11 +176,6 @@ export default {
   text-align: center;
   flex-direction: column;
   align-items: center;
-  color: black;
-}
-
-#projects h2 {
-  font-family: sans-serif;
 }
 .project-container {
   display: flex;

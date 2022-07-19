@@ -92,8 +92,6 @@ export default {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  color: black;
-  font-family: sans-serif;
 }
 .label {
   display: flex;
