@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="container mt-3">
+  <section id="projects" class="container mb-5">
     <h2>Projects</h2>
     <div class="project-container">
       <div class="template">
@@ -31,6 +31,11 @@
       </div>
     </div>
   </section>
+  <footer id="footer">
+    <p class="footer-text">
+      <small>© Copyright 2022 Made by Tristan Daniels</small>
+    </p>
+  </footer>
   <!-- Button trigger modal -->
   <!-- Modals -->
   <div
@@ -179,22 +184,36 @@ export default {
 }
 .project-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
 }
 .template {
-  width: 33%;
+  width: 100%;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
 .project {
-  width: 100%;
-  height: 100%;
+  width: 30%;
 }
-.project {
-  position: relative;
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 </style>

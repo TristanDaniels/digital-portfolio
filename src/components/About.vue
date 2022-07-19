@@ -108,10 +108,25 @@
       </div>
     </div>
   </div>
+  <footer id="footer">
+    <p class="footer-text">
+      <small>© Copyright 2022 Made by Tristan Daniels</small>
+    </p>
+  </footer>
 </template>
 <script>
 export default {
   name: "About",
 };
 </script>
-<style scoped></style>
+<style scoped>
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  font-weight: bold;
+}
+</style>

@@ -88,6 +88,11 @@
       </button>
     </div>
   </section>
+  <footer id="footer">
+    <p class="footer-text">
+      <small>© Copyright 2022 Made by Tristan Daniels</small>
+    </p>
+  </footer>
 </template>
 <script>
 export default {
@@ -106,5 +111,14 @@ export default {
   height: 300px;
   width: 250px;
   border-radius: 50px;
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+  background-color: white;
+  padding: 20px;
+  font-weight: bold;
 }
 </style>

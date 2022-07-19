@@ -3,7 +3,7 @@
     id="contact"
     data-aos="fade-up"
     data-aos-offset="500"
-    class="container mt-5"
+    class="container mt-3"
   >
     <div class="form">
       <h2>Contact me</h2>
@@ -73,6 +73,11 @@
       </div>
     </div>
   </section>
+  <footer id="footer">
+    <p class="footer-text">
+      <small>© Copyright 2022 Made by Tristan Daniels</small>
+    </p>
+  </footer>
 </template>
 <script>
 export default {
@@ -80,6 +85,9 @@ export default {
 };
 </script>
 <style scoped>
+section {
+  height: 80vh;
+}
 #contact {
   display: flex;
   flex-direction: row;
@@ -134,6 +142,15 @@ ul {
 .icons {
   display: inline;
   padding: 10px;
+}
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  padding: 20px;
+  font-weight: bold;
 }
 @media screen and (max-width: 700px) {
   #contact {
