@@ -15,7 +15,7 @@
         <img
           data-bs-toggle="modal"
           data-bs-target="#project2"
-          src="https://i.postimg.cc/qRyS4ybB/Property.jpg"
+          src="https://i.postimg.cc/y8TqtwQQ/BMI-calculator.jpg"
           alt="Project 2"
           class="project"
         />
@@ -24,7 +24,7 @@
         <img
           data-bs-toggle="modal"
           data-bs-target="#project3"
-          src="https://i.postimg.cc/y8TqtwQQ/BMI-calculator.jpg"
+          src="https://i.postimg.cc/qRyS4ybB/Property.jpg"
           alt="Project 3"
           class="project"
         />
@@ -90,7 +90,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="project2">Propertz</h5>
+          <h5 class="modal-title" id="project2">BMI Calculator</h5>
           <button
             type="button"
             class="btn-close"
@@ -100,23 +100,20 @@
         </div>
         <div class="modal-body">
           <img
-            src="https://i.postimg.cc/6q3vXLcF/Property.jpg"
+            src="https://i.postimg.cc/y8TqtwQQ/BMI-calculator.jpg"
             class="me-3 mb-2"
             style="width: 100%"
           />
-          <p>
-            A property listing website where you can filter and find the best
-            suited home for you.
-          </p>
+          <p>A website where you can calculate your BMI.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary">
-            <a href="https://github.com/TristanDaniels/Property-listings.git"
+            <a href="https://github.com/TristanDaniels/BMI-Calculator.git"
               ><span class="text-white">Github</span></a
             >
           </button>
           <button type="button" class="btn btn-primary">
-            <a href="https://tristans-property-listings.netlify.app/"
+            <a href="https://tristans-bmi-calculator.netlify.app/"
               ><span class="text-white">Open</span></a
             >
           </button>
@@ -135,7 +132,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="project3">BMI Calculator</h5>
+          <h5 class="modal-title" id="project3">Propertz</h5>
           <button
             type="button"
             class="btn-close"
@@ -145,20 +142,23 @@
         </div>
         <div class="modal-body">
           <img
-            src="https://i.postimg.cc/y8TqtwQQ/BMI-calculator.jpg"
+            src="https://i.postimg.cc/6q3vXLcF/Property.jpg"
             class="img-fluid me-3 mb-2"
             style="width: 100%"
           />
-          <p>A website where you can calculate your BMI.</p>
+          <p>
+            A property listing website where you can filter and find the best
+            suited home for you.
+          </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary">
-            <a href="https://github.com/TristanDaniels/BMI-Calculator.git"
+            <a href="https://github.com/TristanDaniels/Property-listings.git"
               ><span class="text-white">Github</span></a
             >
           </button>
           <button type="button" class="btn btn-primary">
-            <a href="https://tristans-bmi-calculator.netlify.app/"
+            <a href="https://tristans-property-listings.netlify.app/"
               ><span class="text-white">Open</span></a
             >
           </button>
