@@ -9,7 +9,7 @@
                 <div class="col-sm-6 col-md-5">
                   <div class="about-img">
                     <img
-                      src=""
+                      src="https://i.postimg.cc/QCZYCHKX/Tristan.jpg"
                       class="about-img img-fluid rounded b-shadow-a mt-5"
                       style="height: 250px; width: 200px"
                       alt="Picture of me"

@@ -4,7 +4,6 @@
 <script>
 import Projects from "../components/Projects.vue";
 export default {
-  name: "Projects",
   components: {
     Projects,
   },

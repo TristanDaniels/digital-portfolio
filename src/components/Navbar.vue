@@ -15,7 +15,7 @@ export default {
 </script>
 <style scoped>
 #Navbar {
-  padding: 30px;
+  padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;

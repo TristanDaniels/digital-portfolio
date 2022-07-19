@@ -12,9 +12,9 @@ export default {};
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #landing {
-  background-image: url(Landing.jpg);
+  background-image: url(https://i.postimg.cc/t4PGpSR6/Home.jpg);
   background-size: 100%;
-  height: 90vh;
+  height: 100vh;
   background-size: cover;
   display: flex;
   justify-content: center;

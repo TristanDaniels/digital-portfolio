@@ -1,33 +1,37 @@
 <template>
-  <div class="container project-container">
-    <div class="template">
-      <img
-        data-bs-toggle="modal"
-        data-bs-target="#project1"
-        src="Book.jpg"
-        alt="Project 1"
-        class="project"
-      />
+  <section id="projects" data-aos="fade-up" data-aos-offset="500">
+    <h2>Projects</h2>
+    <div class="project-container">
+      <div class="template">
+        <img
+          data-bs-toggle="modal"
+          data-bs-target="#project1"
+          src="Book.jpg"
+          alt="Project 1"
+          class="project"
+        />
+      </div>
+      <div class="template">
+        <img
+          data-bs-toggle="modal"
+          data-bs-target="#project2"
+          src="Maldives.jpg"
+          alt="Project 2"
+          class="project"
+        />
+      </div>
+      <div class="template">
+        <img
+          data-bs-toggle="modal"
+          data-bs-target="#project3"
+          src="Restaurant 2.jpg"
+          alt="Project 3"
+          class="project"
+        />
+      </div>
     </div>
-    <div class="template">
-      <img
-        data-bs-toggle="modal"
-        data-bs-target="#project2"
-        src="Maldives.jpg"
-        alt="Project 2"
-        class="project"
-      />
-    </div>
-    <div class="template">
-      <img
-        data-bs-toggle="modal"
-        data-bs-target="#project3"
-        src="Restaurant 2.jpg"
-        alt="Project 3"
-        class="project"
-      />
-    </div>
-  </div>
+  </section>
+  <!-- Button trigger modal -->
   <!-- Modals -->
   <div
     class="modal fade"
@@ -164,4 +168,38 @@ export default {
   name: "Projects",
 };
 </script>
-<style scoped></style>
+<style scoped>
+#projects {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+#projects h2 {
+  font-family: sans-serif;
+}
+.project-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.template {
+  width: 33%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.project {
+  width: 100%;
+  height: 100%;
+}
+.project {
+  position: relative;
+}
+</style>

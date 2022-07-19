@@ -1,7 +1,12 @@
 <template>
-  <div></div>
+  <Testimonials />
 </template>
 <script>
-export default {};
+import Testimonials from "../components/Testimonials.vue";
+export default {
+  components: {
+    Testimonials,
+  },
+};
 </script>
 <style scoped></style>

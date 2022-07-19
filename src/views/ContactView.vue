@@ -1,7 +1,12 @@
 <template>
-  <div></div>
+  <Contact />
 </template>
 <script>
-export default {};
+import Contact from "../components/Contact.vue";
+export default {
+  components: {
+    Contact,
+  },
+};
 </script>
 <style scoped></style>
