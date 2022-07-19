@@ -28,7 +28,7 @@
         </div>
         <h3 class="resume-title">Education</h3>
         <div
-          class="resume-item shadow border border-5 border-end-0 border-top-0 border-bottom-0 border-primary p-5"
+          class="resume-item shadow border border-5 border-end-0 border-top-0 border-bottom-0 border-primary p-5 mb-3"
         >
           <h4>Matric Bachelors Pass</h4>
           <h5>2017 - 2021</h5>
