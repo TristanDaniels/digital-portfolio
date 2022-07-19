@@ -1,7 +1,7 @@
 <template>
   <section id="landing">
     <h1>I'm Tristan Daniels</h1>
-    <h3>Aspiring full-stack web developer</h3>
+    <h3>Aspiring Full Stack Web Developer</h3>
   </section>
 </template>
 

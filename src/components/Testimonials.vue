@@ -40,7 +40,7 @@
             alt="Raaid"
           />
           <h5 class="text-white">Raaid</h5>
-          <p class="text-white">"Mans a big G.O.A.T."</p>
+          <p class="text-white">"Man's a big G.O.A.T."</p>
         </div>
         <div class="carousel-item pb-5 text-center">
           <img
@@ -62,7 +62,9 @@
           />
           <h5 class="text-white">Chanique</h5>
           <p class="text-white">
-            Some representative placeholder content for the third slide.
+            "Tristan is a hardworking individual who always does his utmost best
+            in all aspects, always eager to learn and help others whenever and
+            wherever he can. Wishing him all the best in his future endeavours."
           </p>
         </div>
       </div>
@@ -101,8 +103,8 @@ export default {
   height: 100vh;
 }
 .car-img {
-  height: 200px;
-  width: 150px;
+  height: 300px;
+  width: 250px;
   border-radius: 50px;
 }
 </style>

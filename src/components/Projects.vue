@@ -1,12 +1,12 @@
 <template>
-  <section id="projects" class="mt-3">
+  <section id="projects" class="container mt-3">
     <h2>Projects</h2>
     <div class="project-container">
       <div class="template">
         <img
           data-bs-toggle="modal"
           data-bs-target="#project1"
-          src="Book.jpg"
+          src="https://i.postimg.cc/CxnGkWP6/Calculator.jpg"
           alt="Project 1"
           class="project"
         />
@@ -15,7 +15,7 @@
         <img
           data-bs-toggle="modal"
           data-bs-target="#project2"
-          src="Maldives.jpg"
+          src="https://i.postimg.cc/qRyS4ybB/Property.jpg"
           alt="Project 2"
           class="project"
         />
@@ -24,7 +24,7 @@
         <img
           data-bs-toggle="modal"
           data-bs-target="#project3"
-          src="Restaurant 2.jpg"
+          src="https://i.postimg.cc/y8TqtwQQ/BMI-calculator.jpg"
           alt="Project 3"
           class="project"
         />
@@ -43,7 +43,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="project1">Buy my book(demo)</h5>
+          <h5 class="modal-title" id="project1">Calculator</h5>
           <button
             type="button"
             class="btn-close"
@@ -52,20 +52,21 @@
           ></button>
         </div>
         <div class="modal-body">
-          <img src="Book.jpg" class="img-fluid me-3 mb-2" style="width: 100%" />
-          <p>
-            A project built using Bootstrap. Template of a website where a book
-            is being sold.
-          </p>
+          <img
+            src="https://i.postimg.cc/CxnGkWP6/Calculator.jpg"
+            class="img-fluid me-3 mb-2"
+            style="width: 100%"
+          />
+          <p>A working calculator made with JavaScript.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary">
-            <a href="https://github.com/TristanDaniels/Bootstrap.git"
+            <a href="https://github.com/TristanDaniels/Calculator.git"
               ><span class="text-white">Github</span></a
             >
           </button>
           <button type="button" class="btn btn-primary">
-            <a href="https://bootstrapattempt.netlify.app/"
+            <a href="https://tristandanielscalculator.netlify.app/"
               ><span class="text-white">Open</span></a
             >
           </button>
@@ -84,7 +85,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="project2">Calculator</h5>
+          <h5 class="modal-title" id="project2">Propertz</h5>
           <button
             type="button"
             class="btn-close"
@@ -94,23 +95,25 @@
         </div>
         <div class="modal-body">
           <img
-            src="Maldives.jpg"
-            class="img-fluid me-3 mb-2"
+            src="https://i.postimg.cc/6q3vXLcF/Property.jpg"
+            class="me-3 mb-2"
             style="width: 100%"
           />
           <p>
-            One of my beginner projects that links the home page to a contact
-            page.
+            A property listing website where you can filter and find the best
+            suited home for you.
           </p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary">
-            <a href="https://github.com/TristanDaniels/Holiday-Destination.git"
+            <a href="https://github.com/TristanDaniels/Property-listings.git"
               ><span class="text-white">Github</span></a
             >
           </button>
           <button type="button" class="btn btn-primary">
-            <a href=""><span class="text-white">Open</span></a>
+            <a href="https://tristans-property-listings.netlify.app/"
+              ><span class="text-white">Open</span></a
+            >
           </button>
         </div>
       </div>
@@ -127,7 +130,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="project3">Restaurant</h5>
+          <h5 class="modal-title" id="project3">BMI Calculator</h5>
           <button
             type="button"
             class="btn-close"
@@ -137,23 +140,20 @@
         </div>
         <div class="modal-body">
           <img
-            src="Restaurant 2.jpg"
+            src="https://i.postimg.cc/y8TqtwQQ/BMI-calculator.jpg"
             class="img-fluid me-3 mb-2"
             style="width: 100%"
           />
-          <p>
-            Incomplete project but showcases a working navbar with a striking
-            appearance.
-          </p>
+          <p>A website where you can calculate your BMI.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary">
-            <a href="https://github.com/TristanDaniels/Restaurant.git"
+            <a href="https://github.com/TristanDaniels/BMI-Calculator.git"
               ><span class="text-white">Github</span></a
             >
           </button>
           <button type="button" class="btn btn-primary">
-            <a href="https://restaurantlyattempt.netlify.app/"
+            <a href="https://tristans-bmi-calculator.netlify.app/"
               ><span class="text-white">Open</span></a
             >
           </button>
