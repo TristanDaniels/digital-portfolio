@@ -24,7 +24,7 @@
                     </p>
                     <p class="info">
                       <span class="title-s fw-bold">Profile: </span>
-                      <span>Full Stack Developer</span>
+                      <span>Aspiring Full Stack Developer</span>
                     </p>
                     <p class="info">
                       <span class="title-s fw-bold">Email: </span>

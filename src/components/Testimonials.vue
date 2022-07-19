@@ -40,9 +40,7 @@
             alt="Raaid"
           />
           <h5 class="text-white">Raaid</h5>
-          <p class="text-white">
-            Some representative placeholder content for the first slide.
-          </p>
+          <p class="text-white">"Mans a big G.O.A.T."</p>
         </div>
         <div class="carousel-item pb-5 text-center">
           <img

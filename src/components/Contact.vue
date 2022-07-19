@@ -39,7 +39,7 @@
         </div>
       </form>
     </div>
-    <div>
+    <div class="">
       <div class="text-container">
         <div>
           <h2>Get in touch</h2>
@@ -134,5 +134,11 @@ ul {
 .icons {
   display: inline;
   padding: 10px;
+}
+@media screen and (max-width: 700px) {
+  #contact {
+    display: flex;
+    flex-direction: column;
+  }
 }
 </style>
