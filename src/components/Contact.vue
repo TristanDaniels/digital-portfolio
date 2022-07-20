@@ -10,7 +10,7 @@
       <form class="form" action="https://formspree.io/f/xjvlagle" method="POST">
         <div class="mb-3">
           <label class="form-label">Name</label>
-          <input type="text" class="form-control" />
+          <input type="text" name="name" class="form-control" />
         </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label"
@@ -18,6 +18,7 @@
           >
           <input
             type="email"
+            name="email"
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
@@ -28,7 +29,7 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Date</label>
-          <input type="date" class="form-control" />
+          <input type="date" name="date" class="form-control" />
         </div>
         <div class="mb-3">
           <label class="form-label">Message</label>
