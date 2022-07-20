@@ -184,7 +184,7 @@ export default {
 }
 .project-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   text-align: center;
   flex-wrap: wrap;
@@ -207,6 +207,8 @@ export default {
   background-color: black;
   padding: 20px;
   font-weight: bold;
+  bottom: 0;
+  width: 100%;
 }
 @media screen and (max-width: 700px) {
   .project-container {

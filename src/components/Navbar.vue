@@ -15,7 +15,9 @@
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"
+          ><i class="fa-solid fa-bars"></i
+        ></span>
       </button>
       <!-- navbar links -->
       <div
@@ -56,7 +58,7 @@ nav a {
 nav a.router-link-exact-active {
   color: #0d6efd;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   nav a {
     display: flex;
     flex-direction: column;

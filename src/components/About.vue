@@ -120,10 +120,8 @@ export default {
 };
 </script>
 <style scoped>
-.container {
-  height: 100vh;
-}
 #footer {
+  margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;

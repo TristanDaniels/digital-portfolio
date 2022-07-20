@@ -3,14 +3,14 @@
     id="contact"
     data-aos="fade-up"
     data-aos-offset="500"
-    class="container mt-3"
+    class="container"
   >
     <div class="form">
       <h2>Contact me</h2>
       <form class="form" action="https://formspree.io/f/xjvlagle" method="POST">
         <div class="mb-3">
           <label class="form-label">Name</label>
-          <input type="text" name="name" class="form-control" />
+          <input type="text" class="form-control" />
         </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label"
@@ -18,7 +18,6 @@
           >
           <input
             type="email"
-            name="email"
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
@@ -29,7 +28,7 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Date</label>
-          <input type="date" name="date" class="form-control" />
+          <input type="date" class="form-control" />
         </div>
         <div class="mb-3">
           <label class="form-label">Message</label>
@@ -40,16 +39,14 @@
         </div>
       </form>
     </div>
-    <div class="">
-      <div class="text-container">
-        <div>
-          <h2>Get in touch</h2>
-          <p>
-            Feel free to contact me with the information provided below. I will
-            try to respond to queries and possible collaborations as fast as
-            possible. I look forward to working with you.
-          </p>
-        </div>
+    <div class="text-container">
+      <div>
+        <h2>Get in touch</h2>
+        <p>
+          Feel free to contact me with the information provided below. I will
+          try to respond to queries and possible collaborations as fast as
+          possible. I look forward to working with you.
+        </p>
       </div>
       <diV class="communication pb-3">
         <ul>
@@ -87,7 +84,7 @@ export default {
 </script>
 <style scoped>
 section {
-  height: 80vh;
+  margin-bottom: 80px;
 }
 #contact {
   display: flex;
@@ -152,6 +149,8 @@ ul {
   background-color: black;
   padding: 20px;
   font-weight: bold;
+  bottom: 0;
+  width: 100%;
 }
 @media screen and (max-width: 700px) {
   #contact {
