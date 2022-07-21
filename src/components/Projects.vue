@@ -1,34 +1,62 @@
 <template>
-  <section id="projects" class="container mb-5">
+  <section class="container">
     <h2>Projects</h2>
-    <div class="project-container" v-for="job in projects" :key="job">
-      <div class="template">
-        <img
-          data-bs-toggle="modal"
-          :data-bs-target="'#project' + job.id"
-          :src="job.image"
-          alt="Project"
-          class="project"
-        />
+    <div class="mt-3 mb-5">
+      <div id="projects" class="project-container">
+        <div class="template" v-for="project in projects" :key="project">
+          <img
+            data-bs-toggle="modal"
+            :data-bs-target="'#project' + project.id"
+            :src="project.image"
+            alt="Project"
+            class="project"
+          />
+          <!-- Modals -->
+          <div
+            class="modal fade"
+            :id="'project' + project.id"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" :id="'project' + 'project.id'">
+                    {{ project.name }}
+                  </h5>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <img
+                    :src="project.image"
+                    class="img-fluid me-3 mb-2"
+                    style="width: 100%"
+                  />
+                  <p>{{ project.description }}</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary">
+                    <a :href="project.github"
+                      ><span class="text-white">Github</span></a
+                    >
+                  </button>
+                  <button type="button" class="btn btn-primary">
+                    <a :href="project.website"
+                      ><span class="text-white">Open</span></a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!-- <div class="template">
-        <img
-          data-bs-toggle="modal"
-          data-bs-target="#project2"
-          src="https://i.postimg.cc/y8TqtwQQ/BMI-calculator.jpg"
-          alt="Project 2"
-          class="project"
-        />
-      </div>
-      <div class="template">
-        <img
-          data-bs-toggle="modal"
-          data-bs-target="#project3"
-          src="https://i.postimg.cc/CxnGkWP6/Calculator.jpg"
-          alt="Project 3"
-          class="project"
-        />
-      </div> -->
     </div>
   </section>
   <footer id="footer">
@@ -36,130 +64,6 @@
       <small>© Copyright 2022 Made by Tristan Daniels</small>
     </p>
   </footer>
-  <!-- Button trigger modal -->
-  <!-- Modals -->
-  <div
-    class="modal fade"
-    :id="'project' + job.id"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" :id="'project' + job.id">{{ job.id }}</h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">
-          <img
-            :src="job.image"
-            class="img-fluid me-3 mb-2"
-            style="width: 100%"
-          />
-          <p>{{ job.description }}</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary">
-            <a :href="job.github"><span class="text-white">Github</span></a>
-          </button>
-          <button type="button" class="btn btn-primary">
-            <a :href="job.website"><span class="text-white">Open</span></a>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- 
-  <div
-    class="modal fade"
-    id="project2"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="project2">BMI Calculator</h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">
-          <img
-            src="https://i.postimg.cc/y8TqtwQQ/BMI-calculator.jpg"
-            class="me-3 mb-2"
-            style="width: 100%"
-          />
-          <p>A website where you can calculate your BMI.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary">
-            <a href="https://github.com/TristanDaniels/BMI-Calculator.git"
-              ><span class="text-white">Github</span></a
-            >
-          </button>
-          <button type="button" class="btn btn-primary">
-            <a href="https://tristans-bmi-calculator.netlify.app/"
-              ><span class="text-white">Open</span></a
-            >
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div
-    class="modal fade"
-    id="project3"
-    tabindex="-1"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="project3">Calculator</h5>
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="modal"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="modal-body">
-          <img
-            src="https://i.postimg.cc/CxnGkWP6/Calculator.jpg"
-            class="img-fluid me-3 mb-2"
-            style="width: 100%"
-          />
-          <p>A working calculator made with JavaScript.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary">
-            <a href="https://github.com/TristanDaniels/Calculator.git"
-              ><span class="text-white">Github</span></a
-            >
-          </button>
-          <button type="button" class="btn btn-primary">
-            <a href="https://tristandanielscalculator.netlify.app/"
-              ><span class="text-white">Open</span></a
-            >
-          </button>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- End of Modal -->
 </template>
 <script>
 export default {
@@ -176,35 +80,81 @@ export default {
           github: "https://github.com/TristanDaniels/Property-listings.git",
           website: "https://tristans-property-listings.netlify.app/",
         },
+        {
+          id: 2,
+          image: "https://i.postimg.cc/y8TqtwQQ/BMI-calculator.jpg",
+          name: "BMI-calculator",
+          description: "A website where you can calculate your BMI.",
+          github: "https://github.com/TristanDaniels/BMI-Calculator.git",
+          website: "https://tristans-bmi-calculator.netlify.app/",
+        },
+        {
+          id: 3,
+          image: "https://i.postimg.cc/CxnGkWP6/Calculator.jpg",
+          name: "Calculator",
+          description: "A working calculator made with JavaScript.",
+          github: "https://github.com/TristanDaniels/Calculator.git",
+          website: "https://tristandanielscalculator.netlify.app/",
+        },
+        {
+          id: 4,
+          image: "https://i.postimg.cc/59FXRHdb/Mock-portfolio.jpg",
+          name: "Mock Portfolio",
+          description: "A mock portfoilio built using HTML and CSS.",
+          github: "https://github.com/TristanDaniels/Digital-CV.git",
+          website: "https://tristandaniels.netlify.app/",
+        },
+        {
+          id: 5,
+          image: "https://i.postimg.cc/85dzTv16/Maldives.jpg",
+          name: "Holiday Destination",
+          description:
+            "A website built using just HTML and linking the home page to a contact page.",
+          github: "https://github.com/TristanDaniels/Holiday-Destination.git",
+          website: "https://holidaydestinationattempt.netlify.app/",
+        },
+        {
+          id: 6,
+          image: "https://i.postimg.cc/CxNCxcNF/Restaurant.jpg",
+          name: "Restaurant",
+          description:
+            "A website displayng a home page and about page for a restaurant.",
+          github: "https://github.com/TristanDaniels/Restaurant.git",
+          website: "https://restaurantlyattempt.netlify.app/",
+        },
       ],
     };
   },
 };
 </script>
 <style scoped>
+h2 {
+  display: flex;
+  justify-content: center;
+}
 #projects {
   display: flex;
   align-content: center;
   justify-content: center;
   text-align: center;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
 }
 .project-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  flex-wrap: wrap;
 }
 .template {
-  width: 100%;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
 }
-.project {
-  width: 70%;
+.template img {
+  width: 350px;
+  height: 250px;
 }
 #footer {
   display: flex;
