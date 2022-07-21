@@ -29,27 +29,15 @@
         <h3 class="resume-title">Education</h3>
         <div
           class="resume-item shadow border border-5 border-end-0 border-top-0 border-bottom-0 border-primary p-5 mb-3"
+          v-for="job in resumes"
+          :key="job"
         >
-          <h4>Matric Bachelors Pass</h4>
-          <h5>2017 - 2021</h5>
-          <p><em>Pinelands High</em></p>
+          <h4>{{ job.heading }}</h4>
+          <h5>{{ job.time }}</h5>
           <p>
-            Spent 5 years of my life here and didn't once regret the decision I
-            made about wanting to attend Pinelands High. Excellent school and
-            really enjoyed my time while I was there. I feel like the school
-            really molded me inro the person I am today.
+            <em>{{ job.loaction }}</em>
           </p>
-        </div>
-        <div
-          class="resume-item shadow border border-5 border-end-0 border-top-0 border-bottom-0 border-primary p-5"
-        >
-          <h4>Aspiring Fullstack Developer</h4>
-          <h5>2022 - Present</h5>
-          <p><em>Life Choices Academy</em></p>
-          <p>
-            Learning how to develope and design websites using HTML, CSS and
-            JAVASCRIPT.
-          </p>
+          <p>{{ job.description }}</p>
         </div>
       </div>
     </div>
@@ -63,6 +51,28 @@
 <script>
 export default {
   name: "Resume",
+  data() {
+    return {
+      resumes: [
+        {
+          id: 1,
+          heading: "Matric Bachelors Pass",
+          time: "2017 - 2021",
+          location: "Pinelands High",
+          description:
+            "I spent five years of my life here and didn't once regret the decision I made about wanting to attend Pinelands High. It is an excellent school and I enjoyed my time there. The school played a huge role in molding me into the person I am today.",
+        },
+        {
+          id: 2,
+          heading: "Aspiring Fullstack Developer",
+          time: "2022 - Present",
+          location: "Life Choices Academy",
+          description:
+            "Learning how to develope and design websites using HTML, CSS and JAVASCRIPT.",
+        },
+      ],
+    };
+  },
 };
 </script>
 <style scoped>

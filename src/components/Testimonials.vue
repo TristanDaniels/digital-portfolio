@@ -99,6 +99,18 @@
 <script>
 export default {
   name: "Testimonials",
+  data() {
+    return {
+      testimonials: [
+        {
+          id: 1,
+        },
+        {
+          id: 2,
+        },
+      ],
+    };
+  },
 };
 </script>
 <style scoped>

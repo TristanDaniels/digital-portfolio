@@ -1,17 +1,17 @@
 <template>
   <section id="projects" class="container mb-5">
     <h2>Projects</h2>
-    <div class="project-container">
+    <div class="project-container" v-for="job in projects" :key="job">
       <div class="template">
         <img
           data-bs-toggle="modal"
-          data-bs-target="#project1"
-          src="https://i.postimg.cc/6q3vXLcF/Property.jpg"
-          alt="Project 1"
+          :data-bs-target="'#project' + job.id"
+          :src="job.image"
+          alt="Project"
           class="project"
         />
       </div>
-      <div class="template">
+      <!-- <div class="template">
         <img
           data-bs-toggle="modal"
           data-bs-target="#project2"
@@ -28,7 +28,7 @@
           alt="Project 3"
           class="project"
         />
-      </div>
+      </div> -->
     </div>
   </section>
   <footer id="footer">
@@ -40,7 +40,7 @@
   <!-- Modals -->
   <div
     class="modal fade"
-    id="project1"
+    :id="'project' + job.id"
     tabindex="-1"
     aria-labelledby="exampleModalLabel"
     aria-hidden="true"
@@ -48,7 +48,7 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="project1">Propertz</h5>
+          <h5 class="modal-title" :id="'project' + job.id">{{ job.id }}</h5>
           <button
             type="button"
             class="btn-close"
@@ -58,31 +58,24 @@
         </div>
         <div class="modal-body">
           <img
-            src="https://i.postimg.cc/6q3vXLcF/Property.jpg"
+            :src="job.image"
             class="img-fluid me-3 mb-2"
             style="width: 100%"
           />
-          <p>
-            A property listing website where you can filter and find the best
-            suited home for you.
-          </p>
+          <p>{{ job.description }}</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary">
-            <a href="https://github.com/TristanDaniels/Property-listings.git"
-              ><span class="text-white">Github</span></a
-            >
+            <a :href="job.github"><span class="text-white">Github</span></a>
           </button>
           <button type="button" class="btn btn-primary">
-            <a href="https://tristans-property-listings.netlify.app/"
-              ><span class="text-white">Open</span></a
-            >
+            <a :href="job.website"><span class="text-white">Open</span></a>
           </button>
         </div>
       </div>
     </div>
   </div>
-
+  <!-- 
   <div
     class="modal fade"
     id="project2"
@@ -165,12 +158,27 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
   <!-- End of Modal -->
 </template>
 <script>
 export default {
   name: "Projects",
+  data() {
+    return {
+      projects: [
+        {
+          id: 1,
+          image: "https://i.postimg.cc/6q3vXLcF/Property.jpg",
+          name: "Propertz",
+          description:
+            "A property listing website where you can filter and find the best suited home for you.",
+          github: "https://github.com/TristanDaniels/Property-listings.git",
+          website: "https://tristans-property-listings.netlify.app/",
+        },
+      ],
+    };
+  },
 };
 </script>
 <style scoped>
