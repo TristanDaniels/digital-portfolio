@@ -40,7 +40,7 @@
             alt="Raaid"
           />
           <h5 class="text-white">Raaid</h5>
-          <p class="text-white">"Man's a big G.O.A.T."</p>
+          <p class="testimonial text-white">"Man's a big G.O.A.T."</p>
         </div>
         <div class="carousel-item pb-5 text-center">
           <img
@@ -50,7 +50,7 @@
             alt="Joshua"
           />
           <h5 class="text-white">Joshua</h5>
-          <p class="text-white">
+          <p class="testimonial text-white">
             "Tristan is a self-motivated, dedicated and authentic individual. I
             consider him to be a great asset to any workplace due to his
             outspoken personality and charisma."
@@ -63,7 +63,7 @@
             alt="Chanique"
           />
           <h5 class="text-white">Chanique</h5>
-          <p class="text-white">
+          <p class="testimonial text-white">
             "Tristan is a hardworking individual who always does his utmost best
             in all aspects, always eager to learn and help others whenever and
             wherever he can. Wishing him all the best in his future endeavours."
