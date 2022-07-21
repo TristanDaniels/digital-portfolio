@@ -141,20 +141,17 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
 }
-.template:hover {
-  transform: scale(1.02);
-}
 .project-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-align: center;
+  gap: 63px;
 }
 .template {
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  transition: all 0.5s ease;
 }
 .template img {
   width: 350px;
