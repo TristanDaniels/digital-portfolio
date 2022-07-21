@@ -9,7 +9,6 @@
 export default {};
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 #landing {
   background-image: url(https://i.postimg.cc/t4PGpSR6/Home.jpg);
