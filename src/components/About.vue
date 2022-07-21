@@ -120,6 +120,9 @@ export default {
 };
 </script>
 <style scoped>
+.about-img {
+  object-fit: cover;
+}
 #footer {
   margin-top: 20px;
   display: flex;

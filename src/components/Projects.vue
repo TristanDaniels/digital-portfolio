@@ -155,6 +155,7 @@ h2 {
 .template img {
   width: 350px;
   height: 250px;
+  object-fit: cover;
 }
 #footer {
   display: flex;
