@@ -196,7 +196,7 @@ export default {
   padding-right: 20px;
 }
 .project {
-  width: 30%;
+  width: 60%;
 }
 #footer {
   display: flex;
