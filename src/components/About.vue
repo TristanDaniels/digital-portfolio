@@ -38,7 +38,7 @@
                 </div>
               </div>
               <div class="skill-mf mb-5">
-                <p class="title-s mt-3 fw-bold">Skill</p>
+                <p class="title-s mt-3 fw-bold">Skills</p>
                 <span>HTML</span> <span class="pull-right">75%</span>
                 <div class="progress mb-3 mt-3">
                   <div
