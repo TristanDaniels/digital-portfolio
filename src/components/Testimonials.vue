@@ -136,8 +136,8 @@ export default {
   object-fit: cover;
 }
 p {
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 #footer {
   display: flex;
