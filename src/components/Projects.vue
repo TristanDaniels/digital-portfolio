@@ -178,4 +178,9 @@ h2 {
     align-items: center;
   }
 }
+@media screen and (max-width: 410px) {
+  .template img {
+    width: 250px;
+  }
+}
 </style>

@@ -127,7 +127,7 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 100vh;
+  height: 100%;
 }
 .car-img {
   height: 300px;
@@ -151,5 +151,16 @@ p {
 .text-shadow {
   color: lightgray;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+@media screen and (max-width: 500px) {
+  .car-img {
+    height: 200px;
+    width: 150px;
+  }
+  p {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 14px;
+  }
 }
 </style>
