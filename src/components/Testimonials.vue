@@ -135,6 +135,10 @@ export default {
   border-radius: 50px;
   object-fit: cover;
 }
+p {
+  padding-left: 60px;
+  padding-right: 60px;
+}
 #footer {
   display: flex;
   flex-direction: row;
