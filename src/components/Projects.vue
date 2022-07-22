@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section>
     <h2>Projects</h2>
     <div class="mt-3 mb-5">
       <div id="projects" class="project-container">
@@ -146,7 +146,7 @@ h2 {
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  gap: 63px;
+  gap: 50px;
 }
 .template {
   padding-top: 20px;
@@ -154,7 +154,7 @@ h2 {
   padding-right: 20px;
 }
 .template img {
-  width: 350px;
+  width: 370px;
   height: 250px;
   object-fit: cover;
 }
