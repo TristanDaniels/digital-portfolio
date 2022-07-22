@@ -140,6 +140,7 @@ ul {
 .icons {
   display: inline;
   padding: 10px;
+  font-size: 30px;
 }
 #footer {
   display: flex;

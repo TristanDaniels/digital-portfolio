@@ -29,33 +29,6 @@
           <h5 class="text-white">{{ testimonial.name }}</h5>
           <p class="testimonial text-white">"{{ testimonial.testimonial }}"</p>
         </div>
-        <!-- <div class="carousel-item pb-5 text-center">
-          <img
-            src="https://i.postimg.cc/FKjn1z6F/Joshua.jpg
-"
-            class="car-img mb-4"
-            alt="Joshua"
-          />
-          <h5 class="text-white">Joshua</h5>
-          <p class="testimonial text-white">
-            "Tristan is a self-motivated, dedicated and authentic individual. I
-            consider him to be a great asset to any workplace due to his
-            outspoken personality and charisma."
-          </p>
-        </div>
-        <div class="carousel-item pb-5 text-center">
-          <img
-            src="https://i.postimg.cc/Kvhs2ZVZ/Chanique.jpg"
-            class="car-img mb-4"
-            alt="Chanique"
-          />
-          <h5 class="text-white">Chanique</h5>
-          <p class="testimonial text-white">
-            "Tristan is a hardworking individual who always does his utmost best
-            in all aspects, always eager to learn and help others whenever and
-            wherever he can. Wishing him all the best in his future endeavours."
-          </p>
-        </div> -->
       </div>
       <button
         class="carousel-control-prev"
@@ -127,7 +100,8 @@ export default {
           id: 6,
           image: "https://i.postimg.cc/MHfRGn99/Cameron-1.jpg",
           name: "Cameron",
-          testimonial: "Tristan Tristan Tristan.",
+          testimonial:
+            "Tristan is a very competent individual, he strives higher than what he is capable of doing. His passion for his work preference is outstanding and he is a headstrong and smart working personS",
         },
       ],
     };
