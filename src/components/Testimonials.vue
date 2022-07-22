@@ -25,7 +25,11 @@
           v-for="(testimonial, index) in testimonials"
           :key="testimonial.id"
         >
-          <img :src="testimonial.image" class="car-img mb-4" alt="Raaid" />
+          <img
+            :src="testimonial.image"
+            class="car-img mb-4"
+            alt="Testimonial image"
+          />
           <h5 class="text-white">{{ testimonial.name }}</h5>
           <small class="text-shadow">{{ testimonial.occupation }}</small>
           <p class="testimonial text-white mt-2">
