@@ -35,7 +35,7 @@
           <h4>{{ job.heading }}</h4>
           <h5>{{ job.time }}</h5>
           <p>
-            <em>{{ job.loaction }}</em>
+            <em>{{ job.location }}</em>
           </p>
           <p>{{ job.description }}</p>
         </div>
@@ -68,7 +68,7 @@ export default {
           time: "2022 - Present",
           location: "Life Choices Academy",
           description:
-            "Learning how to develope and design websites using HTML, CSS and JAVASCRIPT.",
+            "Learning how to develop and design websites using HTML, CSS and JAVASCRIPT.",
         },
       ],
     };

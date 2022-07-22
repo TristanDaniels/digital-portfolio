@@ -85,6 +85,7 @@ export default {
 </script>
 <style scoped>
 section {
+  height:70vh;
   margin-bottom: 80px;
 }
 #contact {
