@@ -16,8 +16,7 @@
               remain positive regardless of how negative the situation can be.
               My passion for technology started when I was a toddler. I would
               always play games on my phone, computers and consoles. I always
-              saw myself pursuing a career in I.T because of my interest in it
-              since I was young.</em
+              saw myself pursuing a career in I.T.</em
             >
           </p>
           <ul class="pb-3">
