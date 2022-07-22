@@ -27,7 +27,10 @@
         >
           <img :src="testimonial.image" class="car-img mb-4" alt="Raaid" />
           <h5 class="text-white">{{ testimonial.name }}</h5>
-          <p class="testimonial text-white">"{{ testimonial.testimonial }}"</p>
+          <small class="text-shadow">{{ testimonial.occupation }}</small>
+          <p class="testimonial text-white mt-2">
+            "{{ testimonial.testimonial }}"
+          </p>
         </div>
       </div>
       <button
@@ -66,12 +69,14 @@ export default {
           id: 1,
           image: "https://i.postimg.cc/HxdvMHGw/Raaid.jpg",
           name: "Raaid",
+          occupation: "Classmate",
           testimonial: "Man's a big G.O.A.T.",
         },
         {
           id: 2,
           image: "https://i.postimg.cc/FKjn1z6F/Joshua.jpg",
           name: "Joshua",
+          occupation: "Classmate",
           testimonial:
             "Tristan is a self-motivated, dedicated and authentic individual. I consider him to be a great asset to any workplace due to his outspoken personality and charisma.",
         },
@@ -79,6 +84,7 @@ export default {
           id: 3,
           image: "https://i.postimg.cc/Kvhs2ZVZ/Chanique.jpg",
           name: "Chanique",
+          occupation: "Classmate",
           testimonial:
             "Tristan is a hardworking individual who always does his utmost best in all aspects, always eager to learn and help others whenever and wherever he can. Wishing him all the best in his future endeavours.",
         },
@@ -86,6 +92,7 @@ export default {
           id: 4,
           image: "https://i.postimg.cc/L8wwFR9c/Abdool-Zaid.jpg",
           name: "Abdul",
+          occupation: "Classmate",
           testimonial:
             "Tristan is a kind soul who can easily form the backbone of any team  he is dedicated to his craft and shows great work ethic",
         },
@@ -93,6 +100,7 @@ export default {
           id: 5,
           image: "https://i.postimg.cc/5yzmtCqB/jason.jpg",
           name: "Jason",
+          occupation: "Lecturer",
           testimonial:
             "Tristan seems to be a very consistent developer. He gets quite excited when he sees an opportunity to participate and show off his abilities. I'm always happy to see him determined to do well on his projects. He is always challenging himself to write complex ideas for his own level to challenge his coding skills. As long as he is focused, Tristan will continue to do well.",
         },
@@ -100,8 +108,9 @@ export default {
           id: 6,
           image: "https://i.postimg.cc/MHfRGn99/Cameron-1.jpg",
           name: "Cameron",
+          occupation: "Classmate",
           testimonial:
-            "Tristan is a very competent individual, he strives higher than what he is capable of doing. His passion for his work preference is outstanding and he is a headstrong and smart working personS",
+            "Tristan is a very competent individual, he strives higher than what he is capable of doing. His passion for his work preference is outstanding and he is a headstrong and smart working person.",
         },
       ],
     };
@@ -130,5 +139,9 @@ export default {
   background-color: white;
   padding: 20px;
   font-weight: bold;
+}
+.text-shadow {
+  color: lightgray;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 </style>
