@@ -154,7 +154,7 @@ h2 {
   padding-right: 20px;
 }
 .template img {
-  width: 370px;
+  width: 372px;
   height: 250px;
   object-fit: cover;
 }
