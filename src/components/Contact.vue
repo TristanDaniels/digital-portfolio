@@ -10,7 +10,7 @@
       <form class="form" action="https://formspree.io/f/xjvlagle" method="POST">
         <div class="mb-3">
           <label class="form-label">Name</label>
-          <input type="text" class="form-control" />
+          <input type="text" class="form-control" name="name" />
         </div>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label"
@@ -21,6 +21,7 @@
             class="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
+            name="email"
           />
           <div class="form-text">
             We'll never share your email with anyone else.
@@ -28,7 +29,7 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Date</label>
-          <input type="date" class="form-control" />
+          <input type="date" class="form-control" name="date" />
         </div>
         <div class="mb-3">
           <label class="form-label">Message</label>
