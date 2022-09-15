@@ -106,12 +106,11 @@ export default {
         },
         {
           id: 5,
-          image: "https://i.postimg.cc/85dzTv16/Maldives.jpg",
-          name: "Holiday Destination",
-          description:
-            "A website built using just HTML and linking the home page to a contact page.",
-          github: "https://github.com/TristanDaniels/Holiday-Destination.git",
-          website: "https://holidaydestinationattempt.netlify.app/",
+          image: "https://i.postimg.cc/fbmGWnPm/tcd-gaming.jpg",
+          name: "TCD Gaming",
+          description: "A full stack website built using Vue.js and MySQL",
+          github: "https://github.com/TristanDaniels/tcd-gaming.git",
+          website: "https://tcd-gaming.netlify.app/",
         },
         {
           id: 6,
