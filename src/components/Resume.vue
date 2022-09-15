@@ -64,10 +64,18 @@ export default {
         {
           id: 2,
           heading: "Aspiring Fullstack Developer",
-          time: "2022 - Present",
+          time: "2022",
           location: "Life Choices Academy",
           description:
-            "Learning how to develop and design websites using HTML, CSS and JAVASCRIPT.",
+            "Learning how to develop and design websites using HTML, CSS, JavaScript, Node.js and Vue.js.",
+        },
+        {
+          id: 3,
+          heading: "Aspiring Fullstack Developer",
+          time: "2022",
+          location: "Life Choices Academy",
+          description:
+            "Learning how to develop and design websites using HTML, CSS, JavaScript, Node.js and Vue.js.",
         },
       ],
     };
