@@ -64,18 +64,18 @@ export default {
         {
           id: 2,
           heading: "Aspiring Fullstack Developer",
-          time: "2022",
+          time: "03/2022 - 09/2022",
           location: "Life Choices Academy",
           description:
             "Learning how to develop and design websites using HTML, CSS, MySQL, JavaScript, Node.js and Vue.js.",
         },
         {
           id: 3,
-          heading: "Aspiring Fullstack Developer",
-          time: "2022",
-          location: "Life Choices Academy",
+          heading: "Digital Network Security",
+          time: "01/2022",
+          location: "Alison",
           description:
-            "Learning how to develop and design websites using HTML, CSS, JavaScript, Node.js and Vue.js.",
+            "Achieved a certifate in Computer Networking for Digital Network Security.",
         },
       ],
     };
