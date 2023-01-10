@@ -15,7 +15,7 @@
               I am a very optimistic, fun, and loving person. I always try to
               remain positive regardless of how negative the situation can be.
               My passion for technology started when I was a toddler. I would
-              always play games on my phone, computers and consoles. I always
+              always play games on my phone, computer and console. Since then I
               saw myself pursuing a career in I.T.</em
             >
           </p>
