@@ -67,7 +67,7 @@ export default {
           time: "03/2022 - 09/2022",
           location: "Life Choices Academy",
           description:
-            "Learning how to develop and design websites using HTML, CSS, MySQL, JavaScript, Node.js and Vue.js.",
+            "Achieved a certficate for learning how to develop and design websites using HTML, CSS, MySQL, JavaScript, Node.js and Vue.js.",
         },
         {
           id: 3,
@@ -76,6 +76,13 @@ export default {
           location: "Alison",
           description:
             "Achieved a certifate in Computer Networking for Digital Network Security.",
+        },
+        {
+          id: 4,
+          heading: "SEO training",
+          time: "09/2022 - 12/2022",
+          location: "Grizzly New Marketing",
+          description: "Achieved a certifate for SEO training.",
         },
       ],
     };
