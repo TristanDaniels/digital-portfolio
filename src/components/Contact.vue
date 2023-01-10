@@ -116,10 +116,7 @@ export default {
 }
 .text-container {
   width: 100%;
-  margin-bottom: 180px;
-}
-.text-container h2 {
-  padding-bottom: 10px;
+  margin-bottom: 182px;
 }
 .text-container p {
   color: black;
