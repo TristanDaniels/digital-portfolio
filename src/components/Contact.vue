@@ -7,7 +7,7 @@
   >
     <div class="form">
       <h2>Contact me</h2>
-      <form class="form" action="https://formspree.io/f/xjvlagle" method="POST">
+      <form class="form" action="https://formspree.io/f/xjvdvlew" method="POST">
         <div class="mb-3">
           <label class="form-label">Name</label>
           <input type="text" class="form-control" name="name" />
