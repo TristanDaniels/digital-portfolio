@@ -120,6 +120,11 @@ export default {
 };
 </script>
 <style scoped>
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
 .about-img {
   object-fit: cover;
 }
