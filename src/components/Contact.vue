@@ -33,7 +33,7 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Message</label>
-          <textarea class="form-control"></textarea>
+          <textarea class="form-control" name="message"></textarea>
         </div>
         <div id="btn" class="btn-container d-flex justify-content-center">
           <button type="submit" class="button btn btn-primary">Submit</button>
