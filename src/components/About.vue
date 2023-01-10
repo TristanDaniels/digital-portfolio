@@ -91,9 +91,9 @@
                   <h2 class="title-left mb-4">About me</h2>
                 </div>
                 <p class="lead">
-                  I'm 19 years old and fresh out of high school with still much
-                  knowledge to gain. I am excited and anxious of the near future
-                  but I'm always up for a challenge.
+                  I'm an aspiring full-stack web developer working at LC studio.
+                  I'm always willing to learn and focus on the task at hand. I
+                  strive to do my best no matter the circumstances.
                 </p>
                 <p class="lead">
                   I like to play sports such as football, tennis and cricket. I
