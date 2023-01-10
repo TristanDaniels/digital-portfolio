@@ -84,13 +84,14 @@ export default {
 };
 </script>
 <style scoped>
-section {
-  margin-bottom: 80px;
-}
 #contact {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .form {
   width: 100%;
@@ -115,6 +116,7 @@ section {
 }
 .text-container {
   width: 100%;
+  margin-bottom: 180px;
 }
 .text-container h2 {
   padding-bottom: 10px;

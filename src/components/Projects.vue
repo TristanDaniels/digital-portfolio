@@ -1,6 +1,8 @@
 <template>
-  <section>
-    <h2 class="mt-3">Projects</h2>
+  <section class="container">
+    <div>
+      <h2>Projects</h2>
+    </div>
     <div class="mt-3 mb-5">
       <div id="projects" class="project-container">
         <div class="template" v-for="project in projects" :key="project">
@@ -127,6 +129,13 @@ export default {
 };
 </script>
 <style scoped>
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 h2 {
   display: flex;
   justify-content: center;
@@ -145,7 +154,7 @@ h2 {
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  gap: 50px;
+  gap: 20px;
 }
 .template {
   padding-top: 20px;

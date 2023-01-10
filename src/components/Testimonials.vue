@@ -1,7 +1,7 @@
 <template>
   <section id="testimonials" class="py-5">
     <div class="container text-center">
-      <h2 class="mt-3 mb-5 text-white">Testimonials</h2>
+      <h2 class="mb-5 text-white">Testimonials</h2>
     </div>
     <div id="testimonial-slider" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -85,14 +85,6 @@ export default {
             "Tristan is a self-motivated, dedicated and authentic individual. I consider him to be a great asset to any workplace due to his outspoken personality and charisma.",
         },
         {
-          id: 3,
-          image: "https://i.postimg.cc/Kvhs2ZVZ/Chanique.jpg",
-          name: "Chanique",
-          occupation: "Classmate",
-          testimonial:
-            "Tristan is a hardworking individual who always does his utmost best in all aspects, always eager to learn and help others whenever and wherever he can. Wishing him all the best in his future endeavours.",
-        },
-        {
           id: 4,
           image: "https://i.postimg.cc/L8wwFR9c/Abdool-Zaid.jpg",
           name: "Abdul",
@@ -127,7 +119,11 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .car-img {
   height: 300px;
