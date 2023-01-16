@@ -74,7 +74,7 @@
   </section>
   <footer id="footer">
     <p class="footer-text">
-      <small>© Copyright 2022 Made by Tristan Daniels</small>
+      <small>© Copyright 2023 Made by Tristan Daniels</small>
     </p>
   </footer>
 </template>
