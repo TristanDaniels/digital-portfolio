@@ -98,8 +98,8 @@
                 <p class="lead">
                   I like to play sports such as football, tennis and cricket. I
                   enjoy going outdoors whether it's hiking, camping or exploring
-                  places I haven't been to before. I love socialising with my
-                  friends and spending time with my loved-ones.
+                  places I haven't been to before. I also love socialising and
+                  spending time with my loved-ones.
                 </p>
               </div>
             </div>
