@@ -61,13 +61,13 @@
                     aria-valuemax="100"
                   ></div>
                 </div>
-                <span>Bootstrap</span> <span class="pull-right">50%</span>
+                <span>Bootstrap</span> <span class="pull-right">65%</span>
                 <div class="progress mb-3 mt-3">
                   <div
                     class="progress-bar"
                     role="progressbar"
-                    style="width: 50%"
-                    aria-valuenow="50"
+                    style="width: 65%"
+                    aria-valuenow="65"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   ></div>
