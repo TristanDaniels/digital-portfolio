@@ -39,23 +39,23 @@
               </div>
               <div class="skill-mf mb-5">
                 <p class="title-s mt-3 fw-bold">Skills</p>
-                <span>HTML</span> <span class="pull-right">75%</span>
+                <span>HTML</span> <span class="pull-right">80%</span>
+                <div class="progress mb-3 mt-3">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 80%"
+                    aria-valuenow="80"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span>CSS</span> <span class="pull-right">75%</span>
                 <div class="progress mb-3 mt-3">
                   <div
                     class="progress-bar"
                     role="progressbar"
                     style="width: 75%"
-                    aria-valuenow="85"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-                <span>CSS</span> <span class="pull-right">50%</span>
-                <div class="progress mb-3 mt-3">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 50%"
                     aria-valuenow="75"
                     aria-valuemin="0"
                     aria-valuemax="100"
@@ -72,13 +72,46 @@
                     aria-valuemax="100"
                   ></div>
                 </div>
-                <span>JavaScript</span> <span class="pull-right">20%</span>
-                <div class="progress mt-3">
+                <span>MYSQL</span> <span class="pull-right">60%</span>
+                <div class="progress mb-3 mt-3">
                   <div
                     class="progress-bar"
                     role="progressbar"
-                    style="width: 20%"
-                    aria-valuenow="90"
+                    style="width: 60%"
+                    aria-valuenow="60"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span>JavaScript</span> <span class="pull-right">40%</span>
+                <div class="progress mb-3 mt-3">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 40%"
+                    aria-valuenow="40"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span>Vue.JS</span> <span class="pull-right">50%</span>
+                <div class="progress mb-3 mt-3">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 50%"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span>Node.JS</span> <span class="pull-right">50%</span>
+                <div class="progress mb-3 mt-3">
+                  <div
+                    class="progress-bar"
+                    role="progressbar"
+                    style="width: 50%"
+                    aria-valuenow="50"
                     aria-valuemin="0"
                     aria-valuemax="100"
                   ></div>
