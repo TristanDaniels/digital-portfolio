@@ -6,7 +6,7 @@
     class="container"
   >
     <div class="form mt-3">
-      <h2>Contact me</h2>
+      <h2 class="mb-5">Contact me</h2>
       <form class="form" action="https://formspree.io/f/xjvdvlew" method="POST">
         <div class="mb-3">
           <label class="form-label">Name</label>
@@ -36,7 +36,9 @@
           <textarea class="form-control" name="message"></textarea>
         </div>
         <div id="btn" class="btn-container d-flex justify-content-center">
-          <button type="submit" class="button btn btn-primary">Submit</button>
+          <button type="submit" class="button btn btn-primary mb-5">
+            Submit
+          </button>
         </div>
       </form>
     </div>
@@ -49,8 +51,8 @@
           possible. I look forward to working with you.
         </p>
       </div>
-      <diV class="communication pb-3">
-        <ul>
+      <diV class="communication mb-4 pb-3">
+        <ul class="list">
           <li>Cape Town</li>
           <li>+27 65 863 4549</li>
           <li>tristandaniels07@gmail.com</li>
@@ -86,7 +88,7 @@ export default {
 <style scoped>
 #contact {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 30px;
   display: flex;
   justify-content: center;
@@ -94,7 +96,16 @@ export default {
 }
 .form {
   width: 100%;
-  padding-bottom: 80px;
+}
+.form-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #contact h2 {
   display: flex;
@@ -116,7 +127,7 @@ export default {
 }
 .text-container {
   width: 100%;
-  margin-bottom: 182px;
+  margin-bottom: 40px;
 }
 .text-container p {
   color: black;
@@ -125,6 +136,9 @@ export default {
 .communication {
   margin-top: 40px;
   font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 .socials {
   display: flex;
@@ -136,6 +150,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .icons {
   display: inline;
