@@ -33,7 +33,11 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Message</label>
-          <textarea class="form-control" name="message"></textarea>
+          <textarea
+            class="form-control"
+            style="width: 50%"
+            name="message"
+          ></textarea>
         </div>
         <div id="btn" class="btn-container d-flex justify-content-center">
           <button type="submit" class="button btn btn-primary mb-5">
@@ -96,6 +100,19 @@ export default {
 }
 .form {
   width: 100%;
+}
+input {
+  width: 50%;
+  display: flex !important;
+  justify-content: center !important;
+  align-content: center;
+}
+.mb-3 {
+  margin-bottom: 1rem !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .form-label {
   display: flex;
