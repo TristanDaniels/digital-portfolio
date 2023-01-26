@@ -5,7 +5,7 @@
     data-aos-offset="500"
     class="container"
   >
-    <div class="form">
+    <div class="form mt-3">
       <h2>Contact me</h2>
       <form class="form" action="https://formspree.io/f/xjvdvlew" method="POST">
         <div class="mb-3">
@@ -88,13 +88,13 @@ export default {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .form {
   width: 100%;
+  padding-bottom: 80px;
 }
 #contact h2 {
   display: flex;

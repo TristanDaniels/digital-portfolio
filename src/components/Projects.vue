@@ -1,6 +1,6 @@
 <template>
   <section class="container">
-    <div>
+    <div class="mt-3">
       <h2>Projects</h2>
     </div>
     <div class="mt-3 mb-5">
@@ -130,7 +130,6 @@ export default {
 </script>
 <style scoped>
 .container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
