@@ -47,9 +47,7 @@
       </form>
     </div>
     <div class="text-container">
-      <div
-        class="paragraph d-flex flex-column justify-content-center align-items-center"
-      >
+      <div class="d-flex flex-column justify-content-center align-items-center">
         <h2>Get in touch</h2>
         <p>
           Feel free to contact me with the information provided below. I will
@@ -193,9 +191,11 @@ ul {
   width: 100%;
 }
 @media screen and (max-width: 700px) {
-  #contact {
-    display: flex;
-    flex-direction: column;
+  input {
+    width: 100%;
+  }
+  .text-container {
+    width: 100%;
   }
 }
 </style>
