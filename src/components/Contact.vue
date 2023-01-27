@@ -33,11 +33,7 @@
         </div>
         <div class="mb-3">
           <label class="form-label">Message</label>
-          <textarea
-            class="form-control"
-            style="width: 50%"
-            name="message"
-          ></textarea>
+          <textarea class="message form-control" name="message"></textarea>
         </div>
         <div id="btn" class="btn-container d-flex justify-content-center">
           <button type="submit" class="button btn btn-primary mb-5">
@@ -135,6 +131,9 @@ input {
   color: black;
   font-family: sans-serif;
 }
+.message {
+  width: 50%;
+}
 .submit {
   display: flex;
   flex-direction: row;
@@ -192,6 +191,9 @@ ul {
 }
 @media screen and (max-width: 700px) {
   input {
+    width: 100%;
+  }
+  .message {
     width: 100%;
   }
   .text-container {
