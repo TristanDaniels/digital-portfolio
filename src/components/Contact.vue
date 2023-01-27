@@ -47,7 +47,9 @@
       </form>
     </div>
     <div class="text-container">
-      <div>
+      <div
+        class="paragraph d-flex flex-column justify-content-center align-items-center"
+      >
         <h2>Get in touch</h2>
         <p>
           Feel free to contact me with the information provided below. I will
@@ -143,7 +145,7 @@ input {
   width: 100%;
 }
 .text-container {
-  width: 100%;
+  width: 50%;
   margin-bottom: 40px;
 }
 .text-container p {

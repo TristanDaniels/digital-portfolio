@@ -1,7 +1,7 @@
 <template>
-  <section id="testimonials" class="py-5">
-    <div class="container text-center">
-      <h2 class="mb-5 text-white">Testimonials</h2>
+  <section id="testimonials">
+    <div class="container text-center pt-3">
+      <h2 class="heading mb-5 text-white">Testimonials</h2>
     </div>
     <div id="testimonial-slider" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -119,11 +119,6 @@ export default {
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 .car-img {
   height: 300px;
