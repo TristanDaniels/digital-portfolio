@@ -74,7 +74,7 @@ export default {
           image: "https://i.postimg.cc/HxdvMHGw/Raaid.jpg",
           name: "Raaid",
           occupation: "Classmate",
-          testimonial: "Man's a big G.O.A.T.",
+          testimonial: "",
         },
         {
           id: 2,
