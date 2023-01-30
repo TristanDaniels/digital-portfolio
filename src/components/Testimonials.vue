@@ -74,7 +74,8 @@ export default {
           image: "https://i.postimg.cc/HxdvMHGw/Raaid.jpg",
           name: "Raaid",
           occupation: "Classmate",
-          testimonial: "",
+          testimonial:
+            "Tristan Daniels is a person of utilized talent and diligence when it comes to gaining knowledge of new matters. His problem solving has increased tremendously in the time that I've known him and he's one of the most efficient people I know. I recommend him to any company that wants a rapid and reliable individual.",
         },
         {
           id: 2,
