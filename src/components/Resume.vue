@@ -19,10 +19,23 @@
               saw myself pursuing a career in I.T.</em
             >
           </p>
-          <ul class="pb-3">
-            <li>Western Cape, South Africa</li>
-            <li>+27 65 863 4549</li>
-            <li>tristandaniels07@gmail.com</li>
+          <ul class="list pb-3">
+            <li>
+              <i class="fa-solid fa-location-dot pe-2 text-primary"></i
+              ><span class="text-black">Cape Town</span>
+            </li>
+            <li>
+              <a href="tel:065-863-4549"
+                ><i class="fa-solid fa-phone pe-2"></i
+                ><span class="text-black">+27 65 863 4549</span></a
+              >
+            </li>
+            <li>
+              <a href="mailto:tristandaniels07@gmail.com">
+                <i class="fa-solid fa-envelope pe-2"></i
+                ><span class="text-black">tristandaniels07@gmail.com</span>
+              </a>
+            </li>
           </ul>
         </div>
         <h3 class="resume-title">Education</h3>
@@ -90,6 +103,14 @@ export default {
 };
 </script>
 <style scoped>
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 #footer {
   display: flex;
   flex-direction: row;
